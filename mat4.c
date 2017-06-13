@@ -116,6 +116,7 @@ mat4 mat4_rotate(const mat4 m, GLdouble angle, GLdouble vx, GLdouble vy,
 {
 	register mat4 r;
 	register GLdouble c=0., s=0., norm=0.;
+	r = mat_zero();
 	
 	/* Initializing some values */
 	r = mat4_identity();
